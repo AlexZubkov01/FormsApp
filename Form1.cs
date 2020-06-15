@@ -17,5 +17,9 @@ namespace FormsApp
             InitializeComponent();
         }
 
+        private void actionButton_Click(object sender, EventArgs e)
+        {
+            labelPro.Text = textBox1.Text;
+        }
     }
 }
